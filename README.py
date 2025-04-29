@@ -2,7 +2,7 @@
 import numpy as np
 x = float(input("How much money are you starting with? "))
 y = float(input("How much money do you want to end with? "))
-w = float(input("How much money will you gamble per round? "))
+w = float(input("How much money will you gamble per round? ")) 
 
 p = float(input("What is the probability of winning? Enter as a demicimal (e.g. 0.5 for 50%) "))
 q = 1-p
@@ -38,4 +38,5 @@ for i in range(1,n-1):
     arr[i-1][i] = q
     arr[i+1][i] = p
 print(arr)
+
 
